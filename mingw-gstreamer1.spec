@@ -4,7 +4,7 @@
 
 Name:           mingw-gstreamer1
 Version:        1.10.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Streaming-Media Framework Runtime
 
 License:        LGPLv2+
@@ -183,6 +183,9 @@ done
 
 
 %changelog
+* Fri Feb 03 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.10.0-2
+- Rebuild with GCC 5.4.0
+
 * Fri Nov  4 2016 Victor Toso <victortoso@redhat.com> - 1.10.0-1
 - Update to 1.10.0
 
